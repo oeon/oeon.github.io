@@ -13,7 +13,7 @@ style: |
 
 **tl;dr** I worked with interns to make a lot of edits to OpenStreetMap at my previous job - a County/State Government. OSM wins, the Organization wins, the interns win - there are tons of benefits for many. **Takeaway**: teach others to edit OSM.
 
-##feed them for a lifetime
+## feed them for a lifetime
 
 On a couple occasions [Coleman](http://www.colemanm.org/) has encouraged me to write about our accomplishments at my former job, where we leveraged **power in numbers**, to ferociously edit OpenStreetMap (OSM) in our local area. Aaand he's right, I should! I'm going to jot this down before he reminds me again 😜.
 
