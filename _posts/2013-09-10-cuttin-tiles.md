@@ -3,11 +3,15 @@ layout: post
 title: cuttin tiles
 tagline: "Dirty little tiles, rolled by hand, with free software."
 category: work
-tags: 
+tags:
   - gdal
   - gdal2tiles
   - vrt
 published: true
+style: |
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 ---
 
 <a href="http://www.flickr.com/photos/icathing/9860160/" title="Tile bench by icathing, on Flickr"><img src="http://farm1.staticflickr.com/5/9860160_ff26d182e3.jpg" width="500" height="375" alt="Tile bench"></a>
@@ -29,8 +33,8 @@ My local County acquired countywide 1-foot imagery. At work, we are often editin
 ---
 
 >joe larson @oeon
->rough calcs say 34 hours for gdal2tiles to cut zoom 18 
- 
+>rough calcs say 34 hours for gdal2tiles to cut zoom 18
+
 ---
 
 *^temporary^ see [tweet](https://twitter.com/oeon/status/376159617450901504) since I can't embed without breaking Jekyll - yes, I tried [this](https://github.com/scottwb/jekyll-tweet-tag/issues/1) already :/*
@@ -47,7 +51,7 @@ There were a few stragglers because some .tif's were delievered in CA State Plan
 
 <a href="http://www.flickr.com/photos/j03lar50n/9723873672/" title="vrt-e by j03lar50n, on Flickr"><img src="http://farm8.staticflickr.com/7357/9723873672_cf5e388970_o.gif" width="502" height="564" alt="vrt-e"></a>
 
-### Final stats: 
+### Final stats:
 <a href="http://www.flickr.com/photos/j03lar50n/9723599817/" title="tiles_size by j03lar50n, on Flickr"><img src="http://farm8.staticflickr.com/7324/9723599817_2b332c7952_o.png" width="345" height="240" alt="tiles_size"></a>
 
 ###Final thoughts:

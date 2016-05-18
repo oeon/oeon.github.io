@@ -3,11 +3,15 @@ published: true
 layout: post
 category: landsat
 tagline: my basic intro
-tags: 
+tags:
   - remote sensing
   - landsat
   - landsat8
   - open source
+style: |
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 ---
 
 **tl;dr** MapBox has some nice material on using Landsat 8 imagery. Without previous experience processing Landsat data, I used stuff learned from four of their blog posts. Here are some of [my notes](https://gist.github.com/oeon/8007457), images and [a map](http://joelarson.com/harmony-landsat/map.html) of some local, recent Landsat imagery...nothing crazy, just a little do-it-yourself red-green-blue, false-color and color-infrared.
@@ -16,7 +20,7 @@ tags:
 
 Initial inspiration came from [Charlie's](https://www.mapbox.com/about/team/#charlie-loyd) two posts this summer - [Putting Landsat 8’s Bands to Work](https://www.mapbox.com/blog/putting-landsat-8-bands-to-work/ "Putting Landsat 8’s Bands to Work") and [Processing Landsat 8 Using Open-Source Tools](https://www.mapbox.com/blog/processing-landsat-8/ "Processing Landsat 8 Using Open-Source Tools"). Pansharpening gets you 15 meter resolution and [Chris](https://www.mapbox.com/about/team/#chris-herwig) wrote the [main steps involved](https://www.mapbox.com/blog/pansharpening-satellite-imagery-openstreetmap/) in pansharpening with Orfeo Toolbox and GDAL.
 
-<a href="http://www.flickr.com/photos/j03lar50n/11414378274/" title="salinas-false by j03lar50n, on Flickr"><img src="http://farm4.staticflickr.com/3818/11414378274_abe403192a_c.jpg" width="800" height="493" alt="salinas-false"></a> <p align="center"><small>December 5, 2013 Salinas, CA. False-color combination of NIR, SWIR, and visible red, using bands 5, 6, and 4 + pansharpened, Landsat 8.</small></p> 
+<a href="http://www.flickr.com/photos/j03lar50n/11414378274/" title="salinas-false by j03lar50n, on Flickr"><img src="http://farm4.staticflickr.com/3818/11414378274_abe403192a_c.jpg" width="800" height="493" alt="salinas-false"></a> <p align="center"><small>December 5, 2013 Salinas, CA. False-color combination of NIR, SWIR, and visible red, using bands 5, 6, and 4 + pansharpened, Landsat 8.</small></p>
 
 I used Mac OS X and was hoping to evoke `otbcli` from Terminal command line. Thinking I could install Orfeo via Homebrew - it seems at the writing of this post there are various issues with _homebrewed_ Orfeo/Mountain Lion. `otbcli` is contained within Monteverdi toolbox and I could probably access the applications/utilities from there but I already had QGIS installed and they were available from `/Applications/QGIS.app/Contents/MacOS/bin/` on my system, so I used those.
 

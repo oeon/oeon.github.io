@@ -7,6 +7,10 @@ tags:
   - landsat
   - drought
   - california
+style: |
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 ---
 
 2014 [Lake Nacimiento](http://www.openstreetmap.org/#map=12/35.7432/-120.9483) in San Luis Obispo County - California
@@ -37,7 +41,7 @@ It took a bit of time downloading & processing (_pan-sharpening took about 50-60
 	gdal_translate -projwin -13475810.0 4270507.0 -13455685.0 4256681.0 -of GTiff ~/landsat/processed/LC80430352014070LGN00/4070final-pan.TIF ~/landsat/processed/4070final-pan-clip.TIF
 	gdal_translate -projwin -13475810.0 4270507.0 -13455685.0 4256681.0 -of GTiff ~/landsat/processed/LC80430352014054LGN00/4054final-pan.TIF ~/landsat/processed/4054final-pan-clip.TIF
 	gdal_translate -projwin -13475810.0 4270507.0 -13455685.0 4256681.0 -of GTiff ~/landsat/processed/LC80430352014022LGN00/4022final-pan.TIF ~/landsat/processed/4022final-pan-clip.TIF
-	
+
 ###convert
 	mogrify -format gif *.TIF
 

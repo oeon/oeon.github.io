@@ -2,8 +2,12 @@
 layout: post
 title: "osm history renderer Cal Poly Campus in OSM"
 description: ""
-category: 
+category:
 tags: []
+style: |
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 ---
 
 My friend + coworker [Corey](http://rwell.org/) and I have been putting in work in SLO County since around 2009. And now we and others in the office are making a big push to digitize building footprints. I stumbled upon [osm-history-renderer](https://github.com/MaZderMind/osm-history-renderer) a bit ago and now had a cool use for it...also, related - [MapBox](http://mapbox.com/blog/open-mapping-college-campuses/) blogged about a sprint to map college campuses. Here are a couple before/semi-current images of [CalPoly](http://calpoly.edu/) generated from the osm-history-renderer on Ubuntu 11.10. The most recent full-experimental-pbf I grabbed was dated Feb. 28 of this year, so that's as recent as I could get. Really looking forward to showing our progress in the County with building footprints - - which didn't really get going until mid-April...so, a follow up to this down-the-road. Also, animations should be fun!

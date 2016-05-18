@@ -1,6 +1,10 @@
 ---
 title: Finally processed Brasil 2010 tracks
 layout: post
+style: |
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 ---  
 
 <p>So, I had heard about <a href="http://sethoscope.net/heatmap/" title="heatmap.py" target="_blank">heatmap.py</a> - you can find it on <a href="https://github.com/sethoscope/heatmap" title="GitHub" target="_blank">GitHub</a> - and wanted to try it out.</p>

@@ -5,10 +5,14 @@ tagline: deploy OSMTM in da cloud
 category: openstreetmap
 tags:
   - openstreetmap
+style: |
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 ---
 
 *I originally wrote this up for an intern who wanted to spin-up their own Task Manager...putting it here, in case others may benefit.* Gist here for comments, etc. [https://gist.github.com/oeon/a9dd7c4c73691030c135](https://gist.github.com/oeon/a9dd7c4c73691030c135).
-<br><br> 
+<br><br>
 
 **Login** to [https://aws.amazon.com/](https://aws.amazon.com/) > Go to the **Console** > click **EC2**.  
 

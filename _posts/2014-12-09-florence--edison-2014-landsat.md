@@ -6,6 +6,10 @@ tags:
   - landsat
   - drought
   - california
+style: |
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 ---
 
 ![](http://i.imgur.com/aXJiAfr.gif)
@@ -30,12 +34,12 @@ LC80420342014335LGN00 12-01-14
 
 To download all scenes at once, with landsat-util already installed - run:
 
-    landsat download LC80420342014015LGN00 && landsat download LC80420342014047LGN00 && landsat download LC80420342014079LGN00 && landsat download LC80420342014095LGN00 && landsat download LC80420342014143LGN00 && landsat download LC80420342014175LGN00 && landsat download LC80420342014207LGN00 && landsat download LC80420342014239LGN00 && landsat download LC80420342014255LGN00 && landsat download LC80420342014287LGN00 && landsat download LC80420342014319LGN00 && landsat download LC80420342014335LGN00 
+    landsat download LC80420342014015LGN00 && landsat download LC80420342014047LGN00 && landsat download LC80420342014079LGN00 && landsat download LC80420342014095LGN00 && landsat download LC80420342014143LGN00 && landsat download LC80420342014175LGN00 && landsat download LC80420342014207LGN00 && landsat download LC80420342014239LGN00 && landsat download LC80420342014255LGN00 && landsat download LC80420342014287LGN00 && landsat download LC80420342014319LGN00 && landsat download LC80420342014335LGN00
 
 Process them all, takes a while - even longer if you pan-sharpen:
 
     landsat process ~/landsat/zip/LC80420342014015LGN00.tar.bz && landsat process ~/landsat/zip/LC80420342014047LGN00.tar.bz && landsat process ~/landsat/zip/LC80420342014079LGN00.tar.bz && landsat process ~/landsat/zip/LC80420342014095LGN00.tar.bz && landsat process ~/landsat/zip/LC80420342014143LGN00.tar.bz && landsat process ~/landsat/zip/LC80420342014175LGN00.tar.bz && landsat process ~/landsat/zip/LC80420342014207LGN00.tar.bz && landsat process ~/landsat/zip/LC80420342014239LGN00.tar.bz && landsat process ~/landsat/zip/LC80420342014255LGN00.tar.bz && landsat process ~/landsat/zip/LC80420342014287LGN00.tar.bz && landsat process ~/landsat/zip/LC80420342014319LGN00.tar.bz && landsat process ~/landsat/zip/LC80420342014335LGN00.tar.bz
-    
+
 You could make those bash scripts and run both like `./download.sh && ./process.sh`.
 
 Next is the clip, label and gif combo. I run these from the `processed` folder that landsat-util created.
@@ -44,12 +48,12 @@ Next is the clip, label and gif combo. I run these from the `processed` folder t
 	#!/bin/bash
 	mkdir clip
 	for i in $(find . -name "*.TIF" -type f)
-	do 
+	do
 	  dir="$(dirname ${i#./})"
 	  gdal_translate -projwin -13264761 4497519 -13225720 4470697 -of GTiff $i clip/$dir"-clip.tif"
 	done
 
-Of course you'll want your own clip area. BYO bbox. Bring your own projwin. Maybe you'll use QGIS like me, if so - be sure to swap the `uly` & `lry` coordinates. ![](http://i.imgur.com/rF2tnc1.gif) 
+Of course you'll want your own clip area. BYO bbox. Bring your own projwin. Maybe you'll use QGIS like me, if so - be sure to swap the `uly` & `lry` coordinates. ![](http://i.imgur.com/rF2tnc1.gif)
 
 ###label.sh
     #!/bin/bash
@@ -76,4 +80,3 @@ Of course you'll want your own clip area. BYO bbox. Bring your own projwin. Mayb
 All together now `./clip.sh && ./label.sh && ./gif.sh`. Yes, this could be more efficient but who knows your skill level...you may even want to [build your scripts in a spreadsheet](http://peakgis.com/2013/10/02/batch-clipping-multiple-rasters-in-qgis-a-very-basic-approach-to-a-repetitive-process/).
 
 **Bonus**: Lake Oroville, California (2014) pansharpened [http://i.imgur.com/biRxZqG.gif](http://i.imgur.com/biRxZqG.gif)
-

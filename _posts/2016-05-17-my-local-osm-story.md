@@ -5,6 +5,10 @@ tagline: feed them for a lifetime
 category: openstreetmap
 tags:
   - openstreetmap
+style: |
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 ---
 
 **tl;dr** I worked with interns to make a lot of edits to OpenStreetMap at my previous job - a County/State Government. OSM wins, the Organization wins, the interns win - there are tons of benefits for many. **Takeaway**: teach others to edit OSM.
