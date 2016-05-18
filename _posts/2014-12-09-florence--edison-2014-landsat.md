@@ -44,7 +44,7 @@ You could make those bash scripts and run both like `./download.sh && ./process.
 
 Next is the clip, label and gif combo. I run these from the `processed` folder that landsat-util created.
 
-###clip.sh
+### clip.sh
 	#!/bin/bash
 	mkdir clip
 	for i in $(find . -name "*.TIF" -type f)
@@ -72,7 +72,7 @@ Of course you'll want your own clip area. BYO bbox. Bring your own projwin. Mayb
 	convert clip/LC80420342014319LGN00-clip.gif -fill rgba\(255,255,255,0.6\) -gravity NorthWest -pointsize 65 -annotate +5+5 'November' gif/11nov.gif
 	convert clip/LC80420342014335LGN00-clip.gif -fill rgba\(255,255,255,0.6\) -gravity NorthWest -pointsize 65 -annotate +5+5 'December' gif/12dec.gif
 
-###gif.sh
+### gif.sh
     #!/bin/bash
 	gifsicle gif/*.gif > anim.gif
 	gifsicle --loop=0 --delay=150 --colors 256 gif/*.gif > anim.gif

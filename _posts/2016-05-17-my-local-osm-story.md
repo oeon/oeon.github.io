@@ -23,13 +23,13 @@ I live in a rural county in California, [San Luis Obispo](https://en.wikipedia.o
 
 One of the things you do as a GIS Analyst is create data, specifically geographic databases/datasets. Something that commonly happens with GIS Analysts is that the data they create either becomes [silo-ed](https://en.wikipedia.org/wiki/Information_silo), gets stagnate, or even is lost/destroyed - somehow, someway. During my first few years in that role, I experienced all of those possibilities. I learned that OSM could be a more permanent place for _some_ of the data we were creating in our GIS lab. I was lucky enough to have an **awesome** supervisor who let me try things that were outside-of-the-box ideas and not traditional in our line of work - an we began working on OSM.
 
-##getting hungry
+## getting hungry
 
 I guess you could say it all began with our lab wanting to collaboratively edit GIS data. We originally considered: pgVersion and zigGIS - from what I can recall. You may have guessed, our shop didn't have a robust budget to afford ArcGIS for Server. As a State/County government agency, we were provided a few licenses of ArcMap but not enough for our entire team (which ranged from 5-10+ interns at a time) so we used QGIS and other [FOSS4G](https://wiki.osgeo.org/wiki/FOSS4G) software to fill in the gaps. But enabling collaborative editing of data in your own office is one thing - but what about opening up contributions from others outside of your office, organization, or even your country? BTW, those aforementioned approaches never really panned out for collaborative editing, until...
 
 **Enter OpenStreetMap**: By contributing to OSM, our lab could concurrently edit the database while also benefitting from the crowd-sourced efforts of others around the world. Data can be created, manipulated, and extracted. The map and data _we_ edit, in turn, are also used by dozens of significant companies and projects. We had  found an ideal workflow for our lab to edit simultaneously, with a low barrier to entry (cost), which also benefitted from the power of crowd-sourcing, and the ability to get the data back out!
 
-##we feast
+## we feast
 
 ![OSM edits from 2009 until now](/assets/img/slo-osm-analytics.gif) [Source](http://osm-analytics.org/#/compare/polygon:noh%60V_%7DatEo%7DjGu%7DBvyzCgohDlmfC%7BSbmvAt%7D%40/2009...now/buildings)
 
@@ -52,7 +52,7 @@ On a daily basis, this is how the lab would typically operate:
 
 ![A ferocious Street Shark](/assets/img/street-sharks.jpg)
 
-##digestifs
+## digestifs
 
 Sometimes I get a little sad 🙁 when I look at my [How did you contribute to OpenStreetMap?](http://hdyc.neis-one.org/?j03lar50n) UserLink, knowing that I've probably peaked with the amount of time I can give to editing.
 

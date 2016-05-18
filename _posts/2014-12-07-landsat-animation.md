@@ -21,12 +21,12 @@ Inspired by: [https://twitter.com/developmentseed/status/539831619000217600](htt
 
 It took a bit of time downloading & processing (_pan-sharpening took about 50-60 minutes on my MacBook pro_) and space (10GB+ for 11 scenes). My process could definitely be more scripted/streamlined. But I had fun and learned a few things :)
 
-###using landsat-util
+### using landsat-util
 [https://github.com/developmentseed/landsat-util](https://github.com/developmentseed/landsat-util)  
 
 	landsat process --pansharpen LC80430352014022LGN00.tar.gz
 
-###clip
+### clip
 **rename first, e.g. 4310final-pan.TIF**  
 
 	#!/bin/bash
@@ -42,7 +42,7 @@ It took a bit of time downloading & processing (_pan-sharpening took about 50-60
 	gdal_translate -projwin -13475810.0 4270507.0 -13455685.0 4256681.0 -of GTiff ~/landsat/processed/LC80430352014054LGN00/4054final-pan.TIF ~/landsat/processed/4054final-pan-clip.TIF
 	gdal_translate -projwin -13475810.0 4270507.0 -13455685.0 4256681.0 -of GTiff ~/landsat/processed/LC80430352014022LGN00/4022final-pan.TIF ~/landsat/processed/4022final-pan-clip.TIF
 
-###convert
+### convert
 	mogrify -format gif *.TIF
 
 ###label
