@@ -17,3 +17,5 @@ github_username:  oeon
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-feed
