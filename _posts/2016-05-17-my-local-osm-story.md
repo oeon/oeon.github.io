@@ -21,7 +21,7 @@ My background in OSM began around the time I '_cyberstalked_' [@wonderchook](htt
 
 I live in a rural county in California, [San Luis Obispo](https://en.wikipedia.org/wiki/San_Luis_Obispo_County,_California), affectionately known as **SLO**. It is significant in size (area) and has only a handful of population centers - the largest city is less than 50,000 people and the entire county has less than 300,000. I used to work for a _full service all risk fire department_ - [CAL FIRE](https://en.wikipedia.org/wiki/California_Department_of_Forestry_and_Fire_Protection), as a GIS Analyst. Also in SLO is [Cal Poly State University](https://en.wikipedia.org/wiki/California_Polytechnic_State_University), the reason I came to the area - as well as why many other students do - which we hire(d) as interns for CAL FIRE San Luis. Being a 'rural' area and working for an emergency response organization means that I/we needed to provide good data for a quick response to people that need help, sometimes in far away and/or obscure areas.
 
-One of the things you do as a GIS Analyst is create data, specifically geographic databases/datasets. Something that commonly happens with GIS Analysts is that the data they create either becomes [silo-ed](https://en.wikipedia.org/wiki/Information_silo), gets stagnate, or even is lost/destroyed - somehow, someway. During my first few years in that role, I experienced all of those possibilities. I learned that OSM could be a more permanent place for _some_ of the data we were creating in our GIS lab. I was lucky enough to have an **awesome** supervisor who let me try things that were outside-of-the-box ideas and not traditional in our line of work - and we began working on OSM.
+One of the things you do as a GIS Analyst is create data, specifically geographic databases/datasets. Something that commonly happens with GIS Analysts is that the data they create either becomes [silo-ed](https://en.wikipedia.org/wiki/Information_silo), gets stale, or even is lost/destroyed - somehow, someway. During my first few years in that role, I experienced all of those possibilities. I learned that OSM could be a more permanent place for _some_ of the data we were creating in our GIS lab. I was lucky enough to have an **awesome** supervisor who let me try things that were outside-of-the-box ideas and not traditional in our line of work - and we began working on OSM.
 
 ## getting hungry
 
@@ -33,7 +33,7 @@ I guess you could say it all began with our lab wanting to collaboratively edit 
 
 ![OSM edits from 2009 until now](/assets/img/slo-osm-analytics.gif) [Source](http://osm-analytics.org/#/compare/polygon:noh%60V_%7DatEo%7DjGu%7DBvyzCgohDlmfC%7BSbmvAt%7D%40/2009...now/buildings)
 
-Now with an idea on how we would proceed - we turned the interns loose. Our first project: building footprints. This project would provide multiple benefits to various users/cooperators.
+Now with an idea on how we would proceed, we turned the interns loose. Our first project: building footprints. This project would provide multiple benefits to various users/cooperators.
 
 1. The OpenStreetMap project would benefit by us enriching the map.
 2. Our job in the GIS lab was to support the firefighters of CAL FIRE/San Luis Obispo County Fire; providing them with increased [Situational Awareness](https://en.wikipedia.org/wiki/Situation_awareness) during fire, medical, or rescue responses by having detailed maps.
