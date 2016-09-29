@@ -55,7 +55,7 @@ Next is the clip, label and gif combo. I run these from the `processed` folder t
 
 Of course you'll want your own clip area. BYO bbox. Bring your own projwin. Maybe you'll use QGIS like me, if so - be sure to swap the `uly` & `lry` coordinates. ![](http://i.imgur.com/rF2tnc1.gif)
 
-###label.sh
+### label.sh
     #!/bin/bash
 	mkdir gif
 	mogrify -format gif clip/*.tif
