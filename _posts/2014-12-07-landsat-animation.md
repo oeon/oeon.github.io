@@ -45,7 +45,7 @@ It took a bit of time downloading & processing (_pan-sharpening took about 50-60
 ### convert
 	mogrify -format gif *.TIF
 
-###label
+### label
 	#!/bin/bash
 	convert 4022final-pan-clip.gif -fill rgba\(255,255,255,0.5\) -gravity North -pointsize 65 -annotate +0+5 'January 22' gifify/01jan.gif
 	convert 4054final-pan-clip.gif -fill rgba\(255,255,255,0.5\) -gravity North -pointsize 65 -annotate +0+5 'February 23' gifify/02feb.gif
@@ -59,12 +59,12 @@ It took a bit of time downloading & processing (_pan-sharpening took about 50-60
 	convert 4294final-pan-clip.gif -fill rgba\(255,255,255,0.5\) -gravity North -pointsize 65 -annotate +0+5 'October 21' gifify/10oct.gif
 	convert 4310final-pan-clip.gif -fill rgba\(255,255,255,0.5\) -gravity North -pointsize 65 -annotate +0+5 'November 06' gifify/11nov.gif
 
-###gif-ify
+### gif-ify
 	#!/bin/bash
 	gifsicle *.gif > anim.gif
 	gifsicle --loop=0 --delay=150 --colors 256 *.gif > anim.gif
 
-#fin
+# fin
 
 **notes**  
 
