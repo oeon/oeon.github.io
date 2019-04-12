@@ -26,7 +26,7 @@ For me, the point of all of this is purely cartographic, artistic, and hobby. Pl
 
 ## This tutorial
 
-Andy points to [Daniel's great series](https://somethingaboutmaps.wordpress.com/2017/11/16/creating-shaded-relief-in-blender/). But in all honesty, I got hung up on a step in _The Plane_ section - so I googled around more and found [Matt's blog](http://mattfife.com/?p=3796) and finally [Morgan's post](https://wanderingcartographer.wordpress.com/2014/11/14/shaded-relief-with-blendergis-part-1/). Morgan's notes allowed me to get some decent results by using the [BlenderGIS plugin](https://github.com/domlysz/BlenderGIS) - and I decided to start documenting the steps to be able to show others. _But_ I was able to come back and realize [that one weird trick](#that-one-weird-trick) which I was missing for Daniel's flow - so this will hopefully serve as a choose your own adventure of Blender hillshading
+Andy points to [Daniel's great series](https://somethingaboutmaps.wordpress.com/2017/11/16/creating-shaded-relief-in-blender/). But in all honesty, I got hung up on a step in _The Plane_ section - so I googled around more and found [Matt's blog](http://mattfife.com/?p=3796) and finally [Morgan's post](https://wanderingcartographer.wordpress.com/2014/11/14/shaded-relief-with-blendergis-part-1/). Morgan's notes allowed me to get some decent results by using the [BlenderGIS plugin](https://github.com/domlysz/BlenderGIS) - and I decided to start documenting the steps to be able to show others. _But_ I was able to come back and realize [that one weird trick](#that-one-weird-trick) which I was missing for Daniel's flow
 
 ## Data & Setup
 
@@ -40,7 +40,7 @@ USGS's [TNM](https://viewer.nationalmap.gov/basic/) is solid for accessing DEM's
 
 ### <a name="that-one-weird-trick">That One Weird Trick</a>
 
-Honestly, it took me a few days to realize that one ¯\\\_(ツ)_/¯ and at this point, I might as well point you back to [Daniel's tutorial](https://somethingaboutmaps.wordpress.com/blender-relief-tutorial-the-plane/). And while you're at it, be sure to check out the rest of [his site](https://somethingaboutmaps.wordpress.com/) and support professional cartographers and artists like he and [Scott](https://www.scottreinhardmaps.com/). These people are true professionals who make some of their living with this work - donate to them or buy from them, if you can
+Honestly, it took me a few days to realize this one ¯\\\_(ツ)_/¯ and at this point, I might as well point you back to [Daniel's tutorial](https://somethingaboutmaps.wordpress.com/blender-relief-tutorial-the-plane/). And while you're at it, be sure to check out the rest of [his site](https://somethingaboutmaps.wordpress.com/) and support professional cartographers and artists like he and [Scott](https://www.scottreinhardmaps.com/). These people are true professionals who make some of their living with this work - donate to them or buy from them, if you can
 
 Find the minimum and maximum elevation values of the source DEM, -16/3527 here, then:<br>
 `gdal_translate -of GTiff -ot UInt16 -scale -16 3527 0 65535 N14W092.hgt dem-scale.tif`
