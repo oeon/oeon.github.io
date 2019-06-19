@@ -75,13 +75,13 @@ This has been my playbook for obtaining old topos from [topoView](https://ngmdb.
 
 5. `gdal_translate -of GTiff -ot UInt16 -scale 148.194 2525.06 0 65535 dem.tif dem-scale.tif`
 
-6. run orig topo tif through gdal_translate if you get something like  <a href="https://joetos.s3.amazonaws.com/blender-hillshades/oops.tif" target="_blank">oops.tif</a> from the original topo
+5a. if you get something like  <a href="https://joetos.s3.amazonaws.com/blender-hillshades/oops.tif" target="_blank">oops.tif</a> from the original topo, run the tif through gdal_translate 
   * `gdal_translate CA_Dunsmuir_299340_1935_125000_geo.tif shasta.tif`
 
-7. get extent of topo and extend the DEM. You can do this with GDAL, but I usually use QGIS. Layer Properties > Information
+6. get extent of topo and extend the DEM. You can do this with GDAL, but I usually use QGIS. Layer Properties > Information
   * `gdalwarp -te -25858.8718268426709983 4536063.6242974959313869 26708.5448398239932430 4598949.7909641629084945 dem-scale.tif dem-scaled.tif`
 
-8. note the X,Y dimensions of the topo/DEM
+7. note the X,Y dimensions of the topo/DEM
     ```
     Width
     4967
@@ -92,7 +92,7 @@ This has been my playbook for obtaining old topos from [topoView](https://ngmdb.
     5942/4967 = 1.196295550634186
     1.196295550634186 * 2 = 2.392591101268371
     ```
-9. Follow [Daniel's steps](https://somethingaboutmaps.wordpress.com/2017/11/16/creating-shaded-relief-in-blender/)
+8. Follow [Daniel's steps](https://somethingaboutmaps.wordpress.com/2017/11/16/creating-shaded-relief-in-blender/)
 
 ## Extra notes
 
