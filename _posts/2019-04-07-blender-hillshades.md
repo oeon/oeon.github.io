@@ -61,7 +61,7 @@ This has been my playbook for obtaining old topos from [topoView](https://ngmdb.
 
 1. Get the SRS info of the topo
   * `gdalsrsinfo CA_Dunsmuir_299340_1935_125000_geo.tif`
-  * ☝️will output something like: _+proj=poly +lat_0=0 +lon_0=-122.25 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs_ ...log this somewhere
+  * ☝️will output a PROJ.4 value like: _+proj=poly +lat_0=0 +lon_0=-122.25 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs_ ...log this somewhere
 2. create a .geojson extent around the topo in QGIS
   * add DEM first to set projection
   * then add the topo .tif
