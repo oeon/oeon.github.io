@@ -37,14 +37,14 @@ Paula and I are expecting a baby girl to arrive sometime this month! We've had f
 
 <img src="https://images.genius.com/a546b24484b7d104f3b4de521ea63b2f.180x182x1.png" width="300px">
 
-[Ooh Baby Baby, Smokey Robinson](https://genius.com/The-supremes-where-did-our-love-go-lyrics)
+[Ooh Baby Baby, Smokey Robinson](https://genius.com/Smokey-robinson-ooh-baby-baby-lyrics)
 
 >Ooh oo-ooh baby baby  
 >Ooh oo-ooh baby baby  
 
 <img src="https://t2.genius.com/unsafe/440x0/https%3A%2F%2Fimages.genius.com%2F7f4ec5f42aa3aa6cf222d0505089432c.348x348x1.jpg" width="300px">
 
-[Baby, I Love You, Ramones](https://genius.com/The-supremes-where-did-our-love-go-lyrics)
+[Baby, I Love You, Ramones](https://genius.com/Ramones-baby-i-love-you-lyrics)
 
 >Baby, I love you  
 >Come on baby  
