@@ -11,7 +11,16 @@ style: |
   }
 ---
 
-Paula and I are expecting a baby girl to arrive sometime this month! We've had fun rocking out to these jams throughout the pregnancy. What are some of your favorites? Hope you enjoy!
+Paula and I are expecting a baby girl to arrive sometime this month! Here's a list of jams we've had fun rocking out to throughout the pregnancy. What are some of your favorites? Hope you enjoy!
+
+[I Got the Feelin’, James Brown](https://genius.com/James-brown-i-got-the-feelin-lyrics)
+
+>Baby, baby, baby  
+>Baby, baby, baby  
+>Baby, baby, baby  
+>Baby, baby  
+
+<img src="https://t2.genius.com/unsafe/440x440/https%3A%2F%2Fimages.genius.com%2Fd6425b6d329083faab85353b598a04bd.500x500x1.jpg" width="300px">
 
 [Baby, I Love Your Way, Peter Frampton](https://genius.com/Peter-frampton-baby-i-love-your-way-lyrics)
 
