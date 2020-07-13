@@ -13,6 +13,14 @@ style: |
 
 Paula and I are expecting a baby girl to arrive sometime this month! We've had fun rocking out to these jams throughout the pregnancy. What are some of your favorites? Hope you enjoy!
 
+[Baby, I Love Your Way, Peter Frampton](https://genius.com/Peter-frampton-baby-i-love-your-way-lyrics)
+
+>Ooh, baby, I love your way  
+>Wanna tell you I love your way  
+>Wanna be with you night and day  
+
+<img src="https://t2.genius.com/unsafe/440x442/https%3A%2F%2Fimages.genius.com%2F200870b0c3126676968f50fbe0dc70fb.315x316x1.jpg" width="300px">
+
 [Push It, Salt-N-Pepa](https://genius.com/Salt-n-pepa-push-it-lyrics)
 
 >Oooh, baby, baby  
