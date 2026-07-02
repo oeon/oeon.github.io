@@ -12,7 +12,7 @@ style: |
   }
 ---
 
-![](http://i.imgur.com/aXJiAfr.gif)
+![](https://i.imgur.com/aXJiAfr.gif)
 
 Continuing upon [my last post](http://joelarson.com/landsat/2014/12/07/landsat-animation/) using landsat-util and animating Landsat scenes - I took a look at path 42 row 34, where [Florence and Lake Thomas Edison](https://www.openstreetmap.org/#map=12/37.3249/-118.9845) lie in the Sierra Nevadas of Central California.
 
@@ -53,7 +53,7 @@ Next is the clip, label and gif combo. I run these from the `processed` folder t
 	  gdal_translate -projwin -13264761 4497519 -13225720 4470697 -of GTiff $i clip/$dir"-clip.tif"
 	done
 
-Of course you'll want your own clip area. BYO bbox. Bring your own projwin. Maybe you'll use QGIS like me, if so - be sure to swap the `uly` & `lry` coordinates. ![](http://i.imgur.com/rF2tnc1.gif)
+Of course you'll want your own clip area. BYO bbox. Bring your own projwin. Maybe you'll use QGIS like me, if so - be sure to swap the `uly` & `lry` coordinates. ![](https://i.imgur.com/rF2tnc1.gif)
 
 ### label.sh
     #!/bin/bash
@@ -79,4 +79,4 @@ Of course you'll want your own clip area. BYO bbox. Bring your own projwin. Mayb
 
 All together now `./clip.sh && ./label.sh && ./gif.sh`. Yes, this could be more efficient but who knows your skill level...you may even want to [build your scripts in a spreadsheet](http://peakgis.com/2013/10/02/batch-clipping-multiple-rasters-in-qgis-a-very-basic-approach-to-a-repetitive-process/).
 
-**Bonus**: Lake Oroville, California (2014) pansharpened [http://i.imgur.com/biRxZqG.gif](http://i.imgur.com/biRxZqG.gif)
+**Bonus**: Lake Oroville, California (2014) pansharpened [https://i.imgur.com/biRxZqG.gif](https://i.imgur.com/biRxZqG.gif)

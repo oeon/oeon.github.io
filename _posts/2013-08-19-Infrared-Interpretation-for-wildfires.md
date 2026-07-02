@@ -12,7 +12,7 @@ style: |
   }  
 ---
 
-![IR](http://farm4.staticflickr.com/3799/9548967970_02f185d5de.jpg)
+![IR](https://farm4.staticflickr.com/3799/9548967970_02f185d5de.jpg)
 
 **tl;dr** *Infrared Interpretation: a rapid and very effective use of technology to gather data & intelligence for delivery of a quality product to wildfire incident managers.*
 

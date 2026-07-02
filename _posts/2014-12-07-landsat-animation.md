@@ -15,7 +15,7 @@ style: |
 
 2014 [Lake Nacimiento](http://www.openstreetmap.org/#map=12/35.7432/-120.9483) in San Luis Obispo County - California
 
-![Lake Nacimiento animation](http://i.imgur.com/s7ukngS.gif)
+![Lake Nacimiento animation](https://i.imgur.com/s7ukngS.gif)
 
 Inspired by: [https://twitter.com/developmentseed/status/539831619000217600](https://twitter.com/developmentseed/status/539831619000217600) I wanted to play with some Landsat data to see if I could do a time series animation for 2014 to see if Central California's recent drought could be effectively visualized. You can see some subtle shrinking of the '[Dragon Lake](http://en.wikipedia.org/wiki/Lake_Nacimiento)' ...which is not as dramatic as Folsom or Shasta reservoirs, but still apparent.
 

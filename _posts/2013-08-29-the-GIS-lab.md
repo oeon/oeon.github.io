@@ -14,7 +14,7 @@ style: |
   }  
 ---
 
-![image](http://farm6.staticflickr.com/5337/9624178495_d56113bc47_n.jpg)
+![image](https://farm6.staticflickr.com/5337/9624178495_d56113bc47_n.jpg)
 
 **tl;dr** *--*
 
